@@ -34,8 +34,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   
   produce_storage_room = [
-    CONVENTIONAL_PRODUCE.sort!,
-    ORGANIC_PRODUCE.sort!
+    CONVENTIONAL_PRODUCE.sort(),
+    ORGANIC_PRODUCE.sort()
   ]
 end
 
